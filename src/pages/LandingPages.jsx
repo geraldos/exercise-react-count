@@ -24,7 +24,7 @@ class LandingPages extends Component {
 
     resetCount = () => {
         this.setState({
-            count: this.state.count = 0
+            count: 0
         })
     }
 
