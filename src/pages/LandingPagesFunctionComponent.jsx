@@ -4,6 +4,8 @@ function LandingPagesFunctionComponenet () {
 
     const [count, setCount] = useState(0)
 
+
+    
     return (
         <div>
             <div className='count'>
@@ -19,7 +21,7 @@ function LandingPagesFunctionComponenet () {
                     } else {
                         setCount(count - 1)
                     }}}> - </button>
-                <button onClick={() => setCount(count = 0)}> Reset </button>
+                <button onClick={() => setCount(count === 0)}> Reset </button>
             </div>
         </div>
     )
